@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" >
+    <title>Monster Cake</title>
+</head>
+<body>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header class="hero" id="header">
+        <nav id="nav-bar" class="nav nav--fixed">
+                <img id="header-img" class="nav__logo" src="img/logo.png" alt="Monster Cake logo.">
+                <ul class="nav__items">
+                    <li><a class="nav-link nav__items" href="#about">¿Quiénes somos?</a></li>
+                    <li><a class="nav-link nav__items nav__items--left" href="#features">Características</a></li>
+                    <li><a class="nav-link nav__items nav__items--cta" href="#our-products">Nuestros productos</a></li>
+                    <li><a class="nav-link nav__items" href="#deliveries">Entregas</a></li>
+                    <li><a class="nav-link nav__items nav__items--pink" href="#pricing">Precios</a></li>
+                </ul>
+        </nav>
+        <div class="container">
+            <section class="hero__container">
+                <div class="hero__texts">
+                    <h1 class="hero__title">Monster Cake</h1>
+                    <h2 class="hero__caption">Pasteles terroríficamente deliciosos</h2>
+                    <a class="hero__action" href="#contacts">Contactanos ahora</a>
+                </div>
+            </section>
+        </div>
+        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        <div class="top">
+            <a href="#" class="top__img"><img src="icons/to_top.svg" class="top__icon" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about container">
+            <h2 class="caption">¿Quiénes somos?</h2>
+            <p class="about__content">Somos una pastelería que se especializamos en crear pasteles con forma de monstruos. Somos los mejores en nuestro campo, con excelente atención a nuestros clientes brindandoles un servicio de calida y precios competitivos. Tiernos o aterradores, usted decide cómo será su apariencia, pero sin importar su aspecto, tendrá un sabor delicioso.</p>
+            <a href="#contacts" class="about__action">Contactanos ahora</a>
+        </section>
+        <section class="features container" id="features">
+            <h2 class="caption">Características</h2>
+            <div class="features__grid">
+                <article class="features__items">
+                    <figure class="features__img">
+                        <img src="icons/diamond.svg" class="features__icon" alt=""> 
+                    </figure>
+                    <div class="features__text">
+                        <h3 class="features__title">Ingredientes de calidad</h3>
+                        <p class="features__paragraph">Ingrediente de calidad, garantizando un sabor y apariencia únicos e incomparables</p>
+                    </div>
+                </article>
+                <article class="features__items">
+                    <figure class="features__img">
+                        <img src="icons/shipping.svg" class="features__icon" alt=""> 
+                    </figure>
+                    <div class="features__text">
+                        <h3 class="features__title">Envío rápido</h3>
+                        <p class="features__paragraph">Envíos al interior del país, hasta la puerta de su casa. Varias opciones.</p>
+                    </div>
+                </article>
+                <article class="features__items">
+                    <figure class="features__img">
+                        <img src="icons/quality.svg" class="features__icon" alt=""> 
+                    </figure>
+                    <div class="features__text">
+                        <h3 class="features__title">Precios competitivos</h3>
+                        <p class="features__paragraph">La mejor relación calidad-precio en nuestros productos</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="products" id="our-products">
+            <div class="container">
+                <h2 class="caption">Nuestros productos</h2>
+                <div class="products__grid">
+                    <article class="products__items">
+                        <img src="img/img1.jpg" class="products__img" alt="cake.">
+                        <div class="products__hover">
+                            <h2 class="products__title">Producto</h2>
+                            <i class="products__icons"><img src="icons/cake.svg" class="products__icon" alt="cake"></i>
+                        </div>
+                    </article>
+                    <article class="products__items">
+                        <img src="img/img2.jpg" class="products__img" alt="cake.">
+                        <div class="products__hover">
+                            <h2 class="products__title">Producto</h2>
+                            <i class="products__icons"><img products__icon src="icons/cake.svg" class="products__icon" alt="cake"></i>
+                        </div>
+                    </article>
+                    <article class="products__items">
+                        <img src="img/img3.jpg" class="products__img" alt="cake.">
+                        <div class="products__hover">
+                            <h2 class="products__title">Producto</h2>
+                            <i class="products__icons"><img src="icons/cake.svg" class="products__icon" alt="cake"></i>
+                        </div>
+                    </article>
+                    <article class="products__items">
+                        <img src="img/img4.jpg" class="products__img" alt="cake.">
+                        <div class="products__hover">
+                            <h2 class="products__title">Producto</h2>
+                            <i class="products__icons"><img src="icons/cake.svg" class="products__icon" alt="cake"></i>
+                        </div>
+                    </article>
+                </div>
+                <div class="products__video">
+                    <iframe id="video" class="products__vid" width="560" height="315" src="https://www.youtube.com/embed/QY1Rlzs1iJY" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="deliveries" id="deliveries">
+            <div class="container">
+                <h2 class="caption caption--center">Entregas</h2>
+                <div class="deliveries__grid">
+                    <figure class="deliveries__img">
+                        <img src="icons/in_shop.svg" class="deliveries__picture" alt="">
+                    </figure>
+                    <div class="deliveries__text">
+                        <h2 class="deliveries__title">En tienda</h2>
+                        <p class="deliveries__paragraph">Recoja sus productos en una de nuestras tiendas.</p>
+                    </div>
+                    <figure class="deliveries__img">
+                        <img src="icons/at_home.svg" class="deliveries__picture" alt="">
+                    </figure>
+                    <div class="deliveries__text">
+                        <h2 class="deliveries__title">A domicilio</h2>
+                        <p class="deliveries__paragraph">Producto fresco entregado por un cariñoso mensajero dentro de 6 horas (después de recibido y confirmado el pedido).</p>
+                    </div>
+                    <figure class="deliveries__img">
+                        <img src="icons/chronopost.svg" class="deliveries__picture" alt="">
+                    </figure>
+                    <div class="deliveries__text">
+                        <h2 class="deliveries__title">Por Chronospot</h2>
+                        <p class="deliveries__paragraph">Envíos al interior del país por transporte protegido en un plazo de 24 horas (tras la entrega al transportista).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing container" id="pricing">
+            <h2 class="caption caption--center">Precios</h2>
+            <div class="pricing__flex">
+                <article class="pricing__item">
+                    <h2 class="pricing__title">Little Monster</h2>
+                    <div class="pricing__content">
+                        <div class="pricing__container">
+                            <h3 class="pricing__cost">$15</h3>
+                        </div>
+                        <ol class="pricing__details">
+                            <li class="pricing__detail"><strong>20 a 30 </strong>centimetros de alto</li>
+                            <li class="pricing__detail">Diseño super detallado</li>
+                            <li class="pricing__detail">Ideal para compartir en <strong>familia</strong></li>
+                            <li class="pricing__detail">Toda la familia invitada</li>
+                        </ol>
+                    </div>
+                    <button class="pricing__btn">Seleccionar</button>
+                </article>
+                <article class="pricing__item">
+                    <h2 class="pricing__title">Medium Monster</h2>
+                    <div class="pricing__content">
+                        <div class="pricing__container">
+                            <h3 class="pricing__cost">$25</h3>
+                        </div>
+                        <ol class="pricing__details">
+                            <li class="pricing__detail"><strong>40 a 50 </strong>centimetros de alto</li>
+                            <li class="pricing__detail">Diseño super detallado</li>
+                            <li class="pricing__detail">Perfecto para fiesta con <strong>amigos</strong></li>
+                            <li class="pricing__detail">Todos los amigos invitados</li>
+                        </ol>   
+                    </div>
+                    <button class="pricing__btn">Seleccionar</button>
+                </article>
+                <article class="pricing__item">
+                    <h2 class="pricing__title">Big Monster</h2>
+                    <div class="pricing__content">
+                        <div class="pricing__container">
+                            <h3 class="pricing__cost">$40</h3>
+                        </div>
+                        <ol class="pricing__details">
+                            <li class="pricing__detail"><strong>70cm a 1 metro </strong>de alto</li>
+                            <li class="pricing__detail">Diseño super detallado</li>
+                            <li class="pricing__detail">Genial para <strong>fiestas grandes</strong></li>
+                            <li class="pricing__detail">Todo el mundo invitado</li>
+                        </ol>
+                    </div>
+                    <button class="pricing__btn">Seleccionar</button>
+                </article>
+            </div>
+        </section>
+        <section class="newsletter container">
+            <h2 class="newsletter__title">¿Quieres ser el primero en conocer nuestras novedades?</h2>
+            <form id="form" class="newsletter__form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">
+                    <input id="email" class="newsletter__email" type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                </label>
+                <label for="submit">
+                    <input id="submit" class="newsletter__submit" type="submit" value="Notificarme >>">
+                </label>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__grid container">
+            <nav class="nav-footer">
+                <div class="nav-footer__items">
+                    <a class="nav-footer__item" href="#">FAQs</a>
+                    <a class="nav-footer__item" href="#">Términos</a>
+                    <a class="nav-footer__item" href="#">Privacidad</a>
+                </div>
+                <div class="nav-footer__items">
+                    <span class="nav-footer__right">© 2021, Monster Cake. All Rights Reserved.</span>
+                </div>
+            </nav>
+            <section class="footer__contact">
+                <h3 class="footer__title" id="contacts">Contactanos</h3>
+                <div class="footer__icons">
+                    <span class="footer__container-icons">
+                        <a class="footer__icon" href="#"><img class="footer__img" src="icons/facebook.svg" alt="facebook icon"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a class="footer__icon" href="#"><img class="footer__img footer__img--little" src="icons/instagram.svg" alt="instagram icon"></a>
+                    </span>
+                    <span class="footer__container-icons">
+                        <a class="footer__icon" href="#"><img class="footer__img" src="icons/whatsapp.svg" alt="whatsapp icon"></a>
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
